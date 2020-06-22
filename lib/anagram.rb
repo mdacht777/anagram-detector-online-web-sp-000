@@ -9,7 +9,9 @@ class Anagram
   def match(arr)
     puts @word.split("").sort
     arr.each {|a|
-      a.split("").sort==@word.split("").sort
+      if a.split("").sort==@word.split("").sort
+        true
+      end
     }
     false
   end
