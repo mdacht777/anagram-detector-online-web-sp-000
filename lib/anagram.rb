@@ -11,5 +11,6 @@ class Anagram
     arr.each {|a|
       a.split("").sort==@word.split("").sort
     }
+    false
   end
 end
