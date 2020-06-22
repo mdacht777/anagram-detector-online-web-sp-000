@@ -7,9 +7,9 @@ class Anagram
   end
   
   def match(arr)
-    puts @word.split("").sort
     b=[]
     arr.each {|a|
+      puts a.split("").sort
       if a.split("").sort==@word.split("").sort
         b << a
       end
