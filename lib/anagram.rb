@@ -8,6 +8,8 @@ class Anagram
   
   def match(arr)
     puts @word.split("").sort
-    puts arr
+    arr.each {|a|
+      a.split("").sort==@word.split("").sort
+    }
   end
 end
