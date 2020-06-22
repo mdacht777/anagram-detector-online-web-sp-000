@@ -14,5 +14,6 @@ class Anagram
         b << a
       end
     }
+    b
   end
 end
